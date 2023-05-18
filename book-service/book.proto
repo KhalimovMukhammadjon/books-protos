@@ -7,7 +7,7 @@ option go_package = "genproto/book_service";
 import "google/protobuf/struct.proto";
 
 message BookPrimaryKey {
-    string id = 1;
+    string book_id = 1;
 }
 
 message Book {
