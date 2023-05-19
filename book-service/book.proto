@@ -10,6 +10,8 @@ message BookPrimaryKey {
     string book_id = 1;
 }
 
+// main proto
+
 message Book {
     string id = 1;
     string name = 2;
